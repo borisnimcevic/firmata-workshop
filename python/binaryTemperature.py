@@ -33,7 +33,8 @@ board = Arduino(port)
 print("Communication Successfully started")
 
 # Get weather data
-location = 'Novi Sad'
+location = 'Subotica'
+
 temperature = getWeather(location)
 print('The temperature in %s is:' % (location))
 print(str(temperature) + 'C')
